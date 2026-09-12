@@ -140,10 +140,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="impressao.c" />
+    <ClCompile Include="impressao.cpp" />
+    <ClCompile Include="LimpandoTela.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="ponteiros.c" />
     <ClCompile Include="Random.c" />
     <ClCompile Include="Repeticoes.c" />
     <ClCompile Include="Vetores.c" />
+    <ClCompile Include="Vetores.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

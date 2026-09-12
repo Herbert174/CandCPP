@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="CandCPP/CandCPP.vcxproj" />
+  <Project Path="CandCPP/CandCPP.vcxproj" Id="bb26b997-17e8-48ec-b716-4112136b4563" />
 </Solution>

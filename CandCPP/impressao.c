@@ -3,21 +3,35 @@
 #include <stdlib.h>
 #include <locale.h>
 
-int main2() {
-	setlocale(LC_ALL, "en_US.UTF-8");
-
+void impressao() {
 	int a, b, c;
 	int resultado;
 
 	printf("Olá digite os 3 números :\n");
 
-	if(scanf("%d %d %d", &a, &b, &c) == 1)
+	if (scanf("%d %d %d", &a, &b, &c) == 1)
 		printf("valores lidos"); //Não é exibido mas estou deixando aqui para o if do scanf não aglobar outro trecho do codigo
 
 	resultado = a * b * c;
 
 	printf("O resultado da multiplicação dos 3 números é : %d", resultado);
+}
 
+void leituraEscritaString() {
+	printf("Digite uma frase : \n");
+	char texto[100];
+	fgets(texto, sizeof(texto), stdin); //Maneira de ler uma string que contém espaço na frase
+
+	printf("Frase escrita pelo usuario : ");
+	puts(texto);
+	//printf("%s", texto);   Printf quando usado com %s também imprime string mesmo contendo espaço na frase
+}
+
+int main1() {
+	setlocale(LC_ALL, "en_US.UTF-8");
+
+	//impressao();
+	leituraEscritaString();
 	//system("pause"); //Pausa o programa
 	return 0;
 }

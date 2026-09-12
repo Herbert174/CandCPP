@@ -40,7 +40,7 @@ void execRandom() {
 
 
 
-void main5() {
+void main4() {
 	setlocale(LC_ALL, "en_US.UTF-8");
 	//random();
 	//randomRange();

@@ -170,7 +170,7 @@ void exec3AllRepeticao() {
 	}
 }
 
-void main() {
+void main5() {
 	setlocale(LC_ALL, "en_US.UTF-8");
 	//repeticao();
 	//exec1while();
