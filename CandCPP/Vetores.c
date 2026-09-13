@@ -40,6 +40,7 @@ void calculandoMedia() {
 	mediaValores = valoratual / tamanho;
 
 	printf("A media entre esses valores é : %.2f", mediaValores);
+	free(valores); //Liberando a memória alocada para valores
 }
 
 void varrendoMatriz() {

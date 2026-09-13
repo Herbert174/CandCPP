@@ -6,7 +6,7 @@ void limpaTela() {
 	system("CLS");  // Função para limpar a tela
 }
 
-int main() {
+int main9() {
 	int a;
 	
 	printf("Digite um valor para A : ");

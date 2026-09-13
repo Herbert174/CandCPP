@@ -139,6 +139,9 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AlocacaoDinamica.cpp" />
+    <ClCompile Include="FuncoesPonteiros.c" />
+    <ClCompile Include="FuncoesVetor.c" />
     <ClCompile Include="impressao.c" />
     <ClCompile Include="impressao.cpp" />
     <ClCompile Include="LimpandoTela.c" />
@@ -146,6 +149,8 @@
     <ClCompile Include="ponteiros.c" />
     <ClCompile Include="Random.c" />
     <ClCompile Include="Repeticoes.c" />
+    <ClCompile Include="struct.c" />
+    <ClCompile Include="struct.cpp" />
     <ClCompile Include="Vetores.c" />
     <ClCompile Include="Vetores.cpp" />
   </ItemGroup>
