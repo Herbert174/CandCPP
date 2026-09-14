@@ -140,6 +140,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AlocacaoDinamica.cpp" />
+    <ClCompile Include="Arquivos.cpp" />
+    <ClCompile Include="BibliotecaArquivos.cpp" />
     <ClCompile Include="FuncoesPonteiros.c" />
     <ClCompile Include="FuncoesVetor.c" />
     <ClCompile Include="impressao.c" />

@@ -64,7 +64,7 @@ void utilizandoStructCPPnaHeap() {
 	delete[] listaFrutas;
 }
 
-int main() {
+int main14() {
 	setlocale(LC_ALL, "en_US.UTF-8");
 
 	//utilizandoStructCPP();
